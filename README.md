@@ -1,3 +1,3 @@
 # Labyrinth
 
-Developed with Unreal Engine 4
+Game developed with C++ in Unreal Engine 4
