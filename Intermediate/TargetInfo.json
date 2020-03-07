@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Labyrinth",
+			"Path": "/Users/maiquicedeno/PosetoStudioFiles/Labyrinth/Source/Labyrinth.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LabyrinthEditor",
+			"Path": "/Users/maiquicedeno/PosetoStudioFiles/Labyrinth/Source/LabyrinthEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
