@@ -7,48 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4E399CAD3837ECD0F8CBD6 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEditor.ini */; };
-		1CA02256E208777020EF3683 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */; };
-		91F6DDE87770C5A225363F8F /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultGame.ini */; };
+		24EDCC7DA8ED33C0F2D72993 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultEditor.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */; };
+		1CA02256E208777020EF3683 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultGame.ini */; };
 		1A0C466F5D75E4D8AD6765D5 /* Labyrinth.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* Labyrinth.uproject */; };
+		91F6DDE87770C5A225363F8F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* README.md */; };
 		EC5E64005393B30D4A402975 /* Labyrinth.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */; };
-		C266313C03F47DA285E939CA /* Labyrinth.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = AA505C7BBA62107656C5F0CF /* Labyrinth.Build.cs */; };
-		00E61E439FD0BE725FB48973 /* Labyrinth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5B63BB033ECD49829B1BD00 /* Labyrinth.cpp */; };
-		75A73D410FE96C8A11F84F48 /* Labyrinth.h in Sources */ = {isa = PBXBuildFile; fileRef = A8295DA4A3F551B8CE2A992C /* Labyrinth.h */; };
-		9C9121502EC66DFC756268B0 /* LabyrinthGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C579D7FE2CF520A67118028 /* LabyrinthGameModeBase.cpp */; };
-		D45287250506066977A0E94A /* LabyrinthGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = FB91622A5812261F1062F3D3 /* LabyrinthGameModeBase.h */; };
+		9C9121502EC66DFC756268B0 /* Labyrinth.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6C579D7FE2CF520A67118028 /* Labyrinth.Build.cs */; };
+		8F30F5336005324A0D10AD6D /* Labyrinth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12F14D29F900208A5B651126 /* Labyrinth.cpp */; };
+		93DA70CFC7ABC6A199CDEB0C /* Labyrinth.h in Sources */ = {isa = PBXBuildFile; fileRef = F2CBEE22EB83EA83D0F46355 /* Labyrinth.h */; };
+		94A1D67A3CE7FF4F281DCEF7 /* LabyrinthGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 937D627647FE62ED66F20809 /* LabyrinthGameModeBase.cpp */; };
+		00E61E439FD0BE725FB48973 /* LabyrinthGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = E5B63BB033ECD49829B1BD00 /* LabyrinthGameModeBase.h */; };
+		75A73D410FE96C8A11F84F48 /* PlayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8295DA4A3F551B8CE2A992C /* PlayerBase.cpp */; };
+		D45287250506066977A0E94A /* PlayerBase.h in Sources */ = {isa = PBXBuildFile; fileRef = FB91622A5812261F1062F3D3 /* PlayerBase.h */; };
 		B598FEA846B56A21864682FE /* LabyrinthEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E6FC01DBECF6EAFE3EBE34A /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
-		5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
-		9F1A6E3CBDFC1C4D72A426E5 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
 		F519DBC82B7C343B37F88500 /* Labyrinth.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.uproject"; path = "../../Labyrinth.uproject"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
 		CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Target.cs"; path = "../../Source/Labyrinth.Target.cs"; sourceTree = SOURCE_ROOT; };
-		AA505C7BBA62107656C5F0CF /* Labyrinth.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Build.cs"; path = "../../Source/Labyrinth/Labyrinth.Build.cs"; sourceTree = SOURCE_ROOT; };
-		E5B63BB033ECD49829B1BD00 /* Labyrinth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Labyrinth.cpp"; path = "../../Source/Labyrinth/Labyrinth.cpp"; sourceTree = SOURCE_ROOT; };
-		A8295DA4A3F551B8CE2A992C /* Labyrinth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Labyrinth.h"; path = "../../Source/Labyrinth/Labyrinth.h"; sourceTree = SOURCE_ROOT; };
-		6C579D7FE2CF520A67118028 /* LabyrinthGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LabyrinthGameModeBase.cpp"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
-		FB91622A5812261F1062F3D3 /* LabyrinthGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LabyrinthGameModeBase.h"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		6C579D7FE2CF520A67118028 /* Labyrinth.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Build.cs"; path = "../../Source/Labyrinth/Labyrinth.Build.cs"; sourceTree = SOURCE_ROOT; };
+		12F14D29F900208A5B651126 /* Labyrinth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Labyrinth.cpp"; path = "../../Source/Labyrinth/Labyrinth.cpp"; sourceTree = SOURCE_ROOT; };
+		F2CBEE22EB83EA83D0F46355 /* Labyrinth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Labyrinth.h"; path = "../../Source/Labyrinth/Labyrinth.h"; sourceTree = SOURCE_ROOT; };
+		937D627647FE62ED66F20809 /* LabyrinthGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LabyrinthGameModeBase.cpp"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		E5B63BB033ECD49829B1BD00 /* LabyrinthGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LabyrinthGameModeBase.h"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		A8295DA4A3F551B8CE2A992C /* PlayerBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlayerBase.cpp"; path = "../../Source/Labyrinth/PlayerBase.cpp"; sourceTree = SOURCE_ROOT; };
+		FB91622A5812261F1062F3D3 /* PlayerBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlayerBase.h"; path = "../../Source/Labyrinth/PlayerBase.h"; sourceTree = SOURCE_ROOT; };
 		10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LabyrinthEditor.Target.cs"; path = "../../Source/LabyrinthEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
-		93DA70CFC7ABC6A199CDEB0C /* Labyrinth */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Labyrinth; sourceTree = BUILT_PRODUCTS_DIR; };
+		008739C41F1E4F7002C654D5 /* Labyrinth */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Labyrinth; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54917F58CBAE8BF00BF93C48 = {
+		64B0A2236F43EA1BDD2689E9 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E61E439FD0BE725FB48973 /* Labyrinth.cpp in Sources */,
-				9C9121502EC66DFC756268B0 /* LabyrinthGameModeBase.cpp in Sources */,
+				8F30F5336005324A0D10AD6D /* Labyrinth.cpp in Sources */,
+				94A1D67A3CE7FF4F281DCEF7 /* LabyrinthGameModeBase.cpp in Sources */,
+				75A73D410FE96C8A11F84F48 /* PlayerBase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	145CAB295A13450BDD4E8766 /* Embed App Extensions */ = {
+	5F08F833A336DE6856EF03CD /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -60,49 +67,50 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		12F14D29F900208A5B651126 /* PBXContainerItemProxy */ = {
+		B75FCE1B1FC2ED242A698D89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B75FCE1B1FC2ED242A698D89 /* Project object */;
+			containerPortal = F80C1DF0C3AC65C8FFB93CE7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F2CBEE22EB83EA83D0F46355;
+			remoteGlobalIDString = DED6AD9178010E7A43F4AAEA;
 			remoteInfo = "Labyrinth_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		8F30F5336005324A0D10AD6D /* PBXTargetDependency */ = {
+		11FD9FD77B8D559F771B1E8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2CBEE22EB83EA83D0F46355 /* Labyrinth_Build */;
-			targetProxy = 12F14D29F900208A5B651126 /* PBXContainerItemProxy */;
+			target = DED6AD9178010E7A43F4AAEA /* Labyrinth_Build */;
+			targetProxy = B75FCE1B1FC2ED242A698D89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		DED6AD9178010E7A43F4AAEA = {
+		67D94D5CD0CB160509195FBF = {
 			isa = PBXGroup;
 			children = (
-				B6EA05F3ADCC1AEFBFA49295 /* Config */,
-				AFF9A1ECF41795CE90B0CBA3 /* Source */,
+				FD8E2A52FFF0F5D54FB24968 /* Config */,
+				D819239F1441FF2364BEEAD1 /* Source */,
 				F519DBC82B7C343B37F88500 /* Labyrinth.uproject */,
-				3DB92643531203A87016D7F3 /* Products */,
+				9F1A6E3CBDFC1C4D72A426E5 /* README.md */,
+				919B2D5E9474495B1FC3A7A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B6EA05F3ADCC1AEFBFA49295 = {
+		FD8E2A52FFF0F5D54FB24968 = {
 			isa = PBXGroup;
 			children = (
-				4E6FC01DBECF6EAFE3EBE34A /* DefaultEditor.ini */,
-				5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */,
-				9F1A6E3CBDFC1C4D72A426E5 /* DefaultGame.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultEditor.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultGame.ini */,
 			);
 			name = "Config";
 			path = "/Users/maiquicedeno/PosetoStudioFiles/Labyrinth/Config";
 			sourceTree = "<absolute>";
 		};
-		AFF9A1ECF41795CE90B0CBA3 = {
+		D819239F1441FF2364BEEAD1 = {
 			isa = PBXGroup;
 			children = (
-				0952B048C2553E849BD4461F /* Labyrinth */,
+				1046749F38264A7CF3D627D3 /* Labyrinth */,
 				CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */,
 				10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */,
 			);
@@ -110,23 +118,25 @@
 			path = "/Users/maiquicedeno/PosetoStudioFiles/Labyrinth/Source";
 			sourceTree = "<absolute>";
 		};
-		0952B048C2553E849BD4461F = {
+		1046749F38264A7CF3D627D3 = {
 			isa = PBXGroup;
 			children = (
-				AA505C7BBA62107656C5F0CF /* Labyrinth.Build.cs */,
-				E5B63BB033ECD49829B1BD00 /* Labyrinth.cpp */,
-				A8295DA4A3F551B8CE2A992C /* Labyrinth.h */,
-				6C579D7FE2CF520A67118028 /* LabyrinthGameModeBase.cpp */,
-				FB91622A5812261F1062F3D3 /* LabyrinthGameModeBase.h */,
+				6C579D7FE2CF520A67118028 /* Labyrinth.Build.cs */,
+				12F14D29F900208A5B651126 /* Labyrinth.cpp */,
+				F2CBEE22EB83EA83D0F46355 /* Labyrinth.h */,
+				937D627647FE62ED66F20809 /* LabyrinthGameModeBase.cpp */,
+				E5B63BB033ECD49829B1BD00 /* LabyrinthGameModeBase.h */,
+				A8295DA4A3F551B8CE2A992C /* PlayerBase.cpp */,
+				FB91622A5812261F1062F3D3 /* PlayerBase.h */,
 			);
 			name = "Labyrinth";
 			path = "/Users/maiquicedeno/PosetoStudioFiles/Labyrinth/Source/Labyrinth";
 			sourceTree = "<absolute>";
 		};
-		3DB92643531203A87016D7F3 /* Products */ = {
+		919B2D5E9474495B1FC3A7A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93DA70CFC7ABC6A199CDEB0C /* Labyrinth */,
+				008739C41F1E4F7002C654D5 /* Labyrinth */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,10 +144,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		F2CBEE22EB83EA83D0F46355 /* Labyrinth_Build */ = {
+		DED6AD9178010E7A43F4AAEA /* Labyrinth_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/maiquicedeno/PosetoStudioFiles/Labyrinth/Labyrinth.uproject\" -buildscw";
-			buildConfigurationList = B039F466D27DAE291ECEA085 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */;
+			buildConfigurationList = 3DB92643531203A87016D7F3 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/Shared/Epic Games/UE_4.24/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -151,30 +161,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		94A1D67A3CE7FF4F281DCEF7 /* Labyrinth */ = {
+		B039F466D27DAE291ECEA085 /* Labyrinth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 937D627647FE62ED66F20809 /* Build configuration list for PBXNativeTarget "Labyrinth" */;
+			buildConfigurationList = 956283624A0BD4450640362E /* Build configuration list for PBXNativeTarget "Labyrinth" */;
 			buildPhases = (
-				145CAB295A13450BDD4E8766 /* Embed App Extensions */, 
-				F80C1DF0C3AC65C8FFB93CE7 /* Shell Script */, 
+				5F08F833A336DE6856EF03CD /* Embed App Extensions */, 
+				8C80AF0794D3D6A432A8F71F /* Shell Script */, 
 			);
 			dependencies = (
-				8F30F5336005324A0D10AD6D /* PBXTargetDependency */,
+				11FD9FD77B8D559F771B1E8E /* PBXTargetDependency */,
 			);
 			name = "Labyrinth";
 			passBuildSettingsInEnvironment = 1;
 			productName = "Labyrinth";
-			productReference = "93DA70CFC7ABC6A199CDEB0C";
+			productReference = "008739C41F1E4F7002C654D5";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		956283624A0BD4450640362E /* Labyrinth_Index */ = {
+		54917F58CBAE8BF00BF93C48 /* Labyrinth_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11FD9FD77B8D559F771B1E8E /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */;
+			buildConfigurationList = 145CAB295A13450BDD4E8766 /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */;
 			buildPhases = (
-				54917F58CBAE8BF00BF93C48 /* Sources */,
+				64B0A2236F43EA1BDD2689E9 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -186,38 +196,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B75FCE1B1FC2ED242A698D89 /* Project object */ = {
+		F80C1DF0C3AC65C8FFB93CE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					94A1D67A3CE7FF4F281DCEF7 = {
+					B039F466D27DAE291ECEA085 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 008739C41F1E4F7002C654D5 /* Build configuration list for PBXProject "Labyrinth" */;
+			buildConfigurationList = 81B6AE9469B9DF437CDD2EF6 /* Build configuration list for PBXProject "Labyrinth" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = DED6AD9178010E7A43F4AAEA;
-			productRefGroup = 3DB92643531203A87016D7F3;
+			mainGroup = 67D94D5CD0CB160509195FBF;
+			productRefGroup = 919B2D5E9474495B1FC3A7A4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			94A1D67A3CE7FF4F281DCEF7 /* Labyrinth */,
-			F2CBEE22EB83EA83D0F46355 /* Labyrinth_Build */,
-			956283624A0BD4450640362E /* Labyrinth_Index */,
+			B039F466D27DAE291ECEA085 /* Labyrinth */,
+			DED6AD9178010E7A43F4AAEA /* Labyrinth_Build */,
+			54917F58CBAE8BF00BF93C48 /* Labyrinth_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		81B6AE9469B9DF437CDD2EF6 /* "DebugGame" */ = {
+		29F296C52E44E16B1244FF8B /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -267,17 +277,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
-					"LABYRINTH_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -294,6 +293,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"NETCORE_VTABLE=DLLIMPORT_VTABLE",
 					"NETCORE_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
@@ -514,6 +522,8 @@
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
 					"AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
 					"AUDIOMIXERCORE_API=",
+					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
+					"LABYRINTH_API=",
 					"__INTELLISENSE__",
 					"MONOLITHIC_BUILD=1",
 				);
@@ -544,18 +554,16 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source\"",
-					"../Build/Mac/UE4Editor/Inc/Labyrinth",
-					"../../Source",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/TraceLog/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Core/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/TraceLog\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/CoreUObject/Public\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net/Core/Classes\"",
@@ -781,6 +789,8 @@
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixerCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/AudioMixerCore/Public\"",
+					"../Build/Mac/UE4Editor/Inc/Labyrinth",
+					"../../Source",
 				);
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
@@ -790,7 +800,7 @@
 			};
 			name = "DebugGame";
 		};
-		5F08F833A336DE6856EF03CD /* "DebugGame Editor" */ = {
+		1BEDBFF35A8272555BA6314C /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -840,17 +850,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
-					"LABYRINTH_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -867,6 +866,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"NETCORE_VTABLE=DLLIMPORT_VTABLE",
 					"NETCORE_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
@@ -1087,6 +1095,8 @@
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
 					"AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
 					"AUDIOMIXERCORE_API=",
+					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
+					"LABYRINTH_API=",
 					"__INTELLISENSE__",
 					"MONOLITHIC_BUILD=1",
 				);
@@ -1117,18 +1127,16 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source\"",
-					"../Build/Mac/UE4Editor/Inc/Labyrinth",
-					"../../Source",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/TraceLog/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Core/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/TraceLog\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/CoreUObject/Public\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net/Core/Classes\"",
@@ -1354,6 +1362,8 @@
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixerCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/AudioMixerCore/Public\"",
+					"../Build/Mac/UE4Editor/Inc/Labyrinth",
+					"../../Source",
 				);
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
@@ -1363,7 +1373,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		94E2860A50E4B6B611D809B0 /* "Development" */ = {
+		7D8EB938A9E77213A5F2EE1D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1413,17 +1423,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
-					"LABYRINTH_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -1440,6 +1439,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"NETCORE_VTABLE=DLLIMPORT_VTABLE",
 					"NETCORE_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
@@ -1660,6 +1668,8 @@
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
 					"AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
 					"AUDIOMIXERCORE_API=",
+					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
+					"LABYRINTH_API=",
 					"__INTELLISENSE__",
 					"MONOLITHIC_BUILD=1",
 				);
@@ -1690,18 +1700,16 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source\"",
-					"../Build/Mac/UE4Editor/Inc/Labyrinth",
-					"../../Source",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/TraceLog/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Core/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/TraceLog\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/CoreUObject/Public\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net/Core/Classes\"",
@@ -1927,6 +1935,8 @@
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixerCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/AudioMixerCore/Public\"",
+					"../Build/Mac/UE4Editor/Inc/Labyrinth",
+					"../../Source",
 				);
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
@@ -1936,7 +1946,7 @@
 			};
 			name = "Development";
 		};
-		043C671418506E705608EE62 /* "Development Editor" */ = {
+		7849C126F69E4DC486EE4CBD /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1986,17 +1996,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
-					"LABYRINTH_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -2013,6 +2012,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"NETCORE_VTABLE=DLLIMPORT_VTABLE",
 					"NETCORE_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
@@ -2233,6 +2241,8 @@
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
 					"AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
 					"AUDIOMIXERCORE_API=",
+					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
+					"LABYRINTH_API=",
 					"__INTELLISENSE__",
 					"MONOLITHIC_BUILD=1",
 				);
@@ -2263,18 +2273,16 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source\"",
-					"../Build/Mac/UE4Editor/Inc/Labyrinth",
-					"../../Source",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/TraceLog/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Core/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/TraceLog\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/CoreUObject/Public\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net/Core/Classes\"",
@@ -2500,6 +2508,8 @@
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixerCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/AudioMixerCore/Public\"",
+					"../Build/Mac/UE4Editor/Inc/Labyrinth",
+					"../../Source",
 				);
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
@@ -2509,7 +2519,7 @@
 			};
 			name = "Development Editor";
 		};
-		EBEB3E57B34EE417E831978A /* "Shipping" */ = {
+		7A6524FC0A8B41C7D4BE2D70 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2559,17 +2569,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
-					"LABYRINTH_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -2586,6 +2585,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"NETCORE_VTABLE=DLLIMPORT_VTABLE",
 					"NETCORE_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
@@ -2806,6 +2814,8 @@
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
 					"AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
 					"AUDIOMIXERCORE_API=",
+					"LABYRINTH_VTABLE=DLLEXPORT_VTABLE",
+					"LABYRINTH_API=",
 					"__INTELLISENSE__",
 					"MONOLITHIC_BUILD=1",
 				);
@@ -2836,18 +2846,16 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source\"",
-					"../Build/Mac/UE4Editor/Inc/Labyrinth",
-					"../../Source",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
+					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/TraceLog/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Core/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/TraceLog\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/CoreUObject/Public\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Classes\"",
-					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/Net/Core/Classes\"",
@@ -3073,6 +3081,8 @@
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixerCore\"",
 					"\"/Users/Shared/Epic Games/UE_4.24/Engine/Source/Runtime/AudioMixerCore/Public\"",
+					"../Build/Mac/UE4Editor/Inc/Labyrinth",
+					"../../Source",
 				);
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
@@ -3082,7 +3092,7 @@
 			};
 			name = "Shipping";
 		};
-		67D94D5CD0CB160509195FBF /* "DebugGame" */ = {
+		7C15B8E8E43E4E75ADD497EF /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3111,7 +3121,7 @@
 			};
 			name = "DebugGame";
 		};
-		8C80AF0794D3D6A432A8F71F /* "DebugGame Editor" */ = {
+		BDD71A2D8D487AA40C0748CC /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3127,7 +3137,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		A01839110D98BB4781238B7E /* "Development" */ = {
+		1A5D3C0B38C0F6B5E8B807CA /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3156,7 +3166,7 @@
 			};
 			name = "Development";
 		};
-		25C25C8E65B454F9E7ED5436 /* "Development Editor" */ = {
+		A81B60570ED734E9C6B17403 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3172,7 +3182,7 @@
 			};
 			name = "Development Editor";
 		};
-		9635C76F95DBBC32D43F7407 /* "Shipping" */ = {
+		7E40C9B2F7A046713CF6CA50 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3201,7 +3211,7 @@
 			};
 			name = "Shipping";
 		};
-		919B2D5E9474495B1FC3A7A4 /* "DebugGame" */ = {
+		94E2860A50E4B6B611D809B0 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3214,7 +3224,7 @@
 			};
 			name = "DebugGame";
 		};
-		29F296C52E44E16B1244FF8B /* "DebugGame Editor" */ = {
+		043C671418506E705608EE62 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3227,7 +3237,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		1BEDBFF35A8272555BA6314C /* "Development" */ = {
+		EBEB3E57B34EE417E831978A /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3240,7 +3250,7 @@
 			};
 			name = "Development";
 		};
-		7D8EB938A9E77213A5F2EE1D /* "Development Editor" */ = {
+		F9861F0DFBD4F6AC7736DE69 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3253,7 +3263,7 @@
 			};
 			name = "Development Editor";
 		};
-		7849C126F69E4DC486EE4CBD /* "Shipping" */ = {
+		B6EA05F3ADCC1AEFBFA49295 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3266,7 +3276,7 @@
 			};
 			name = "Shipping";
 		};
-		64B0A2236F43EA1BDD2689E9 /* "DebugGame" */ = {
+		A01839110D98BB4781238B7E /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3295,7 +3305,7 @@
 			};
 			name = "DebugGame";
 		};
-		7C15B8E8E43E4E75ADD497EF /* "DebugGame Editor" */ = {
+		25C25C8E65B454F9E7ED5436 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3311,7 +3321,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		BDD71A2D8D487AA40C0748CC /* "Development" */ = {
+		9635C76F95DBBC32D43F7407 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3340,7 +3350,7 @@
 			};
 			name = "Development";
 		};
-		1A5D3C0B38C0F6B5E8B807CA /* "Development Editor" */ = {
+		8CBD204AE3D204A7E809C77A /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3356,7 +3366,7 @@
 			};
 			name = "Development Editor";
 		};
-		A81B60570ED734E9C6B17403 /* "Shipping" */ = {
+		AFF9A1ECF41795CE90B0CBA3 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3388,57 +3398,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		008739C41F1E4F7002C654D5 /* Build configuration list for PBXProject "Labyrinth" */ = {
+		81B6AE9469B9DF437CDD2EF6 /* Build configuration list for PBXProject "Labyrinth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81B6AE9469B9DF437CDD2EF6 /* "DebugGame" */,
-				5F08F833A336DE6856EF03CD /* "DebugGame Editor" */,
-				94E2860A50E4B6B611D809B0 /* "Development" */,
-				043C671418506E705608EE62 /* "Development Editor" */,
-				EBEB3E57B34EE417E831978A /* "Shipping" */,
+				29F296C52E44E16B1244FF8B /* "DebugGame" */,
+				1BEDBFF35A8272555BA6314C /* "DebugGame Editor" */,
+				7D8EB938A9E77213A5F2EE1D /* "Development" */,
+				7849C126F69E4DC486EE4CBD /* "Development Editor" */,
+				7A6524FC0A8B41C7D4BE2D70 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		B039F466D27DAE291ECEA085 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */ = {
+		3DB92643531203A87016D7F3 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				919B2D5E9474495B1FC3A7A4 /* "DebugGame" */,
-				29F296C52E44E16B1244FF8B /* "DebugGame Editor" */,
-				1BEDBFF35A8272555BA6314C /* "Development" */,
-				7D8EB938A9E77213A5F2EE1D /* "Development Editor" */,
-				7849C126F69E4DC486EE4CBD /* "Shipping" */,
+				94E2860A50E4B6B611D809B0 /* "DebugGame" */,
+				043C671418506E705608EE62 /* "DebugGame Editor" */,
+				EBEB3E57B34EE417E831978A /* "Development" */,
+				F9861F0DFBD4F6AC7736DE69 /* "Development Editor" */,
+				B6EA05F3ADCC1AEFBFA49295 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		937D627647FE62ED66F20809 /* Build configuration list for PBXNativeTarget "Labyrinth" */ = {
+		956283624A0BD4450640362E /* Build configuration list for PBXNativeTarget "Labyrinth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67D94D5CD0CB160509195FBF /* "DebugGame" */,
-				8C80AF0794D3D6A432A8F71F /* "DebugGame Editor" */,
-				A01839110D98BB4781238B7E /* "Development" */,
-				25C25C8E65B454F9E7ED5436 /* "Development Editor" */,
-				9635C76F95DBBC32D43F7407 /* "Shipping" */,
+				7C15B8E8E43E4E75ADD497EF /* "DebugGame" */,
+				BDD71A2D8D487AA40C0748CC /* "DebugGame Editor" */,
+				1A5D3C0B38C0F6B5E8B807CA /* "Development" */,
+				A81B60570ED734E9C6B17403 /* "Development Editor" */,
+				7E40C9B2F7A046713CF6CA50 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		11FD9FD77B8D559F771B1E8E /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */ = {
+		145CAB295A13450BDD4E8766 /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64B0A2236F43EA1BDD2689E9 /* "DebugGame" */,
-				7C15B8E8E43E4E75ADD497EF /* "DebugGame Editor" */,
-				BDD71A2D8D487AA40C0748CC /* "Development" */,
-				1A5D3C0B38C0F6B5E8B807CA /* "Development Editor" */,
-				A81B60570ED734E9C6B17403 /* "Shipping" */,
+				A01839110D98BB4781238B7E /* "DebugGame" */,
+				25C25C8E65B454F9E7ED5436 /* "DebugGame Editor" */,
+				9635C76F95DBBC32D43F7407 /* "Development" */,
+				8CBD204AE3D204A7E809C77A /* "Development Editor" */,
+				AFF9A1ECF41795CE90B0CBA3 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 /* Begin PBXShellScriptBuildPhase section */
-		F80C1DF0C3AC65C8FFB93CE7 /* Sign Frameworks */ = {
+		8C80AF0794D3D6A432A8F71F /* Sign Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3454,5 +3464,5 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 	};
-	rootObject = B75FCE1B1FC2ED242A698D89 /* Project object */;
+	rootObject = F80C1DF0C3AC65C8FFB93CE7 /* Project object */;
 }
