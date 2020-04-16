@@ -5,6 +5,11 @@
 #include "Engine/World.h"
 #include "Components/InputComponent.h"
 
+APlayerBase::APlayerBase()
+{
+    PrimaryActorTick.bCanEverTick = true;
+}
+
 void APlayerBase::SetupPlayerInputComponent (UInputComponent* inputComponent)
 {
     InputComponent->BindAxis("Forward", this, &APlayerBase::ForwardAxis);
@@ -23,4 +28,12 @@ void APlayerBase::SideAxis(float axis)
     FRotator rotation (0, 0, 0);
     rotation.Yaw = axis * speedRotation * GetWorld()->GetDeltaSeconds();
     AddActorLocalRotation(rotation);
+}
+
+void APlayerBase::Tick(float DeltaTime)
+{
+    if(life <= 0)
+    {
+        Destroy();
+    }
 }

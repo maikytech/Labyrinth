@@ -26,8 +26,12 @@ public:
     UPROPERTY(EditAnywhere)
     float changeTime;
     
+    UPROPERTY(EditAnywhere)
+    float damage;
+    
     AVerticalTrap();
     virtual void Tick(float DeltaTime) override;
+    void OnOverlap(AActor* me, AActor* other);
     
 
 };
