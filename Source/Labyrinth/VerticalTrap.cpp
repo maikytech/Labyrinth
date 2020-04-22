@@ -3,6 +3,7 @@
 
 #include "VerticalTrap.h"
 #include "TimerManager.h"
+#include "PlayerBase.h"
 
 AVerticalTrap::AVerticalTrap()
 {
@@ -12,12 +13,25 @@ AVerticalTrap::AVerticalTrap()
 void AVerticalTrap::BeginPlay()
 {
     Super::BeginPlay();
+    
     GetWorldTimerManager().SetTimer(timerHandle, this, &AVerticalTrap::ChangeDirection, changeTime, true);
+    OnActorBeginOverlap.AddDynamic(this, &AVerticalTrap::OnOverlap);
+    
 }
 
 void AVerticalTrap::ChangeDirection()
 {
     speed *= -1;
+}
+
+void AVerticalTrap::OnOverlap(AActor* me, AActor* other)
+{
+    APlayerBase* pb = Cast<APlayerBase>(other);
+    
+    if(pb != nullptr)
+    {
+        pb->life -= damage;
+    }
 }
 
 void AVerticalTrap::Tick(float DeltaTime)

@@ -17,9 +17,15 @@ public:
     float speed;
     
     UPROPERTY(EditAnywhere)
+    float life;
+    
+    UPROPERTY(EditAnywhere)
     float speedRotation;
     
+    APlayerBase();
+    
     virtual void SetupPlayerInputComponent(class UInputComponent* inputComponent) override;
+    virtual void Tick (float DeltaTime) override;
     
     void ForwardAxis(float axis);
     void SideAxis(float axis);
