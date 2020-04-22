@@ -32,11 +32,7 @@ public:
     AVerticalTrap();
     
     virtual void Tick(float DeltaTime) override;
-    
+   
     UFUNCTION()
     void OnOverlap(AActor* me, AActor* other);
-    
-    
-    
-
 };

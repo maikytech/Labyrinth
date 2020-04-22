@@ -16,7 +16,6 @@ void AVerticalTrap::BeginPlay()
     
     GetWorldTimerManager().SetTimer(timerHandle, this, &AVerticalTrap::ChangeDirection, changeTime, true);
     OnActorBeginOverlap.AddDynamic(this, &AVerticalTrap::OnOverlap);
-    
 }
 
 void AVerticalTrap::ChangeDirection()
