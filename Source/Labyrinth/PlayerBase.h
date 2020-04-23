@@ -10,14 +10,28 @@ UCLASS()
 class LABYRINTH_API APlayerBase : public APawn
 {
 	GENERATED_BODY()
+    
+protected:
+    
+    virtual void BeginPlay() override;
 
 public:
+
+    
+    FVector initialPosition;
+    FRotator initialRotation;
     
     UPROPERTY(EditAnywhere)
-    float speed;
+    int respawns;
+
+    UPROPERTY(EditAnywhere)
+    float initialLife;
     
     UPROPERTY(EditAnywhere)
     float life;
+    
+    UPROPERTY(EditAnywhere)
+    float speed;
     
     UPROPERTY(EditAnywhere)
     float speedRotation;

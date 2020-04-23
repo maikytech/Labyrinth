@@ -10,6 +10,15 @@ APlayerBase::APlayerBase()
     PrimaryActorTick.bCanEverTick = true;
 }
 
+void APlayerBase::BeginPlay()
+{
+    Super::BeginPlay();
+    
+    initialPosition = GetActorLocation();
+    initialRotation = GetActorRotation();
+    initialLife = life;
+}
+
 void APlayerBase::SetupPlayerInputComponent (UInputComponent* inputComponent)
 {
     InputComponent->BindAxis("Forward", this, &APlayerBase::ForwardAxis);
@@ -34,6 +43,16 @@ void APlayerBase::Tick(float DeltaTime)
 {
     if(life <= 0)
     {
-        Destroy();
+        if(respawns > 0)
+        {
+            SetActorLocation(initialPosition);
+            SetActorRotation(initialRotation);
+            life = initialLife;
+            respawns--;
+            
+        }else {
+            
+            Destroy();
+        }
     }
 }
