@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Labyrinth",
-			"Path": "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Source/Labyrinth.Target.cs",
+			"Path": "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Source/Labyrinth.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "LabyrinthEditor",
-			"Path": "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Source/LabyrinthEditor.Target.cs",
+			"Path": "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Source/LabyrinthEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

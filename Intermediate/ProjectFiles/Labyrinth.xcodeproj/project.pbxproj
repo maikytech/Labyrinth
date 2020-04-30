@@ -14,12 +14,16 @@
 		1A0C466F5D75E4D8AD6765D5 /* Labyrinth.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* Labyrinth.uproject */; };
 		91F6DDE87770C5A225363F8F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* README.md */; };
 		EC5E64005393B30D4A402975 /* Labyrinth.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */; };
+		11FD9FD77B8D559F771B1E8E /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B75FCE1B1FC2ED242A698D89 /* Door.cpp */; };
+		81B6AE9469B9DF437CDD2EF6 /* Door.h in Sources */ = {isa = PBXBuildFile; fileRef = 67D94D5CD0CB160509195FBF /* Door.h */; };
+		919B2D5E9474495B1FC3A7A4 /* DoorKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64B0A2236F43EA1BDD2689E9 /* DoorKey.cpp */; };
+		8F30F5336005324A0D10AD6D /* DoorKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 12F14D29F900208A5B651126 /* DoorKey.h */; };
 		75A73D410FE96C8A11F84F48 /* Labyrinth.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = A8295DA4A3F551B8CE2A992C /* Labyrinth.Build.cs */; };
-		11FD9FD77B8D559F771B1E8E /* Labyrinth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B75FCE1B1FC2ED242A698D89 /* Labyrinth.cpp */; };
-		008739C41F1E4F7002C654D5 /* Labyrinth.h in Sources */ = {isa = PBXBuildFile; fileRef = DED6AD9178010E7A43F4AAEA /* Labyrinth.h */; };
-		B039F466D27DAE291ECEA085 /* LabyrinthGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956283624A0BD4450640362E /* LabyrinthGameModeBase.cpp */; };
-		8F30F5336005324A0D10AD6D /* LabyrinthGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 12F14D29F900208A5B651126 /* LabyrinthGameModeBase.h */; };
-		93DA70CFC7ABC6A199CDEB0C /* PlayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2CBEE22EB83EA83D0F46355 /* PlayerBase.cpp */; };
+		3DB92643531203A87016D7F3 /* Labyrinth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54917F58CBAE8BF00BF93C48 /* Labyrinth.cpp */; };
+		145CAB295A13450BDD4E8766 /* Labyrinth.h in Sources */ = {isa = PBXBuildFile; fileRef = F80C1DF0C3AC65C8FFB93CE7 /* Labyrinth.h */; };
+		008739C41F1E4F7002C654D5 /* LabyrinthGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DED6AD9178010E7A43F4AAEA /* LabyrinthGameModeBase.cpp */; };
+		93DA70CFC7ABC6A199CDEB0C /* LabyrinthGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = F2CBEE22EB83EA83D0F46355 /* LabyrinthGameModeBase.h */; };
+		B039F466D27DAE291ECEA085 /* PlayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956283624A0BD4450640362E /* PlayerBase.cpp */; };
 		00E61E439FD0BE725FB48973 /* PlayerBase.h in Sources */ = {isa = PBXBuildFile; fileRef = E5B63BB033ECD49829B1BD00 /* PlayerBase.h */; };
 		94A1D67A3CE7FF4F281DCEF7 /* VerticalTrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 937D627647FE62ED66F20809 /* VerticalTrap.cpp */; };
 		9C9121502EC66DFC756268B0 /* VerticalTrap.h in Sources */ = {isa = PBXBuildFile; fileRef = 6C579D7FE2CF520A67118028 /* VerticalTrap.h */; };
@@ -34,27 +38,33 @@
 		F519DBC82B7C343B37F88500 /* Labyrinth.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.uproject"; path = "../../Labyrinth.uproject"; sourceTree = SOURCE_ROOT; };
 		9F1A6E3CBDFC1C4D72A426E5 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
 		CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Target.cs"; path = "../../Source/Labyrinth.Target.cs"; sourceTree = SOURCE_ROOT; };
+		B75FCE1B1FC2ED242A698D89 /* Door.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Door.cpp"; path = "../../Source/Labyrinth/Door.cpp"; sourceTree = SOURCE_ROOT; };
+		67D94D5CD0CB160509195FBF /* Door.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Door.h"; path = "../../Source/Labyrinth/Door.h"; sourceTree = SOURCE_ROOT; };
+		64B0A2236F43EA1BDD2689E9 /* DoorKey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DoorKey.cpp"; path = "../../Source/Labyrinth/DoorKey.cpp"; sourceTree = SOURCE_ROOT; };
+		12F14D29F900208A5B651126 /* DoorKey.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DoorKey.h"; path = "../../Source/Labyrinth/DoorKey.h"; sourceTree = SOURCE_ROOT; };
 		A8295DA4A3F551B8CE2A992C /* Labyrinth.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Build.cs"; path = "../../Source/Labyrinth/Labyrinth.Build.cs"; sourceTree = SOURCE_ROOT; };
-		B75FCE1B1FC2ED242A698D89 /* Labyrinth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Labyrinth.cpp"; path = "../../Source/Labyrinth/Labyrinth.cpp"; sourceTree = SOURCE_ROOT; };
-		DED6AD9178010E7A43F4AAEA /* Labyrinth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Labyrinth.h"; path = "../../Source/Labyrinth/Labyrinth.h"; sourceTree = SOURCE_ROOT; };
-		956283624A0BD4450640362E /* LabyrinthGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LabyrinthGameModeBase.cpp"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
-		12F14D29F900208A5B651126 /* LabyrinthGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LabyrinthGameModeBase.h"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.h"; sourceTree = SOURCE_ROOT; };
-		F2CBEE22EB83EA83D0F46355 /* PlayerBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlayerBase.cpp"; path = "../../Source/Labyrinth/PlayerBase.cpp"; sourceTree = SOURCE_ROOT; };
+		54917F58CBAE8BF00BF93C48 /* Labyrinth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Labyrinth.cpp"; path = "../../Source/Labyrinth/Labyrinth.cpp"; sourceTree = SOURCE_ROOT; };
+		F80C1DF0C3AC65C8FFB93CE7 /* Labyrinth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Labyrinth.h"; path = "../../Source/Labyrinth/Labyrinth.h"; sourceTree = SOURCE_ROOT; };
+		DED6AD9178010E7A43F4AAEA /* LabyrinthGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LabyrinthGameModeBase.cpp"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		F2CBEE22EB83EA83D0F46355 /* LabyrinthGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LabyrinthGameModeBase.h"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		956283624A0BD4450640362E /* PlayerBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlayerBase.cpp"; path = "../../Source/Labyrinth/PlayerBase.cpp"; sourceTree = SOURCE_ROOT; };
 		E5B63BB033ECD49829B1BD00 /* PlayerBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlayerBase.h"; path = "../../Source/Labyrinth/PlayerBase.h"; sourceTree = SOURCE_ROOT; };
 		937D627647FE62ED66F20809 /* VerticalTrap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerticalTrap.cpp"; path = "../../Source/Labyrinth/VerticalTrap.cpp"; sourceTree = SOURCE_ROOT; };
 		6C579D7FE2CF520A67118028 /* VerticalTrap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerticalTrap.h"; path = "../../Source/Labyrinth/VerticalTrap.h"; sourceTree = SOURCE_ROOT; };
 		10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LabyrinthEditor.Target.cs"; path = "../../Source/LabyrinthEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
-		81B6AE9469B9DF437CDD2EF6 /* Labyrinth */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Labyrinth; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E2860A50E4B6B611D809B0 /* Labyrinth */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Labyrinth; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A01839110D98BB4781238B7E = {
+		9635C76F95DBBC32D43F7407 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11FD9FD77B8D559F771B1E8E /* Labyrinth.cpp in Sources */,
-				B039F466D27DAE291ECEA085 /* LabyrinthGameModeBase.cpp in Sources */,
-				93DA70CFC7ABC6A199CDEB0C /* PlayerBase.cpp in Sources */,
+				11FD9FD77B8D559F771B1E8E /* Door.cpp in Sources */,
+				919B2D5E9474495B1FC3A7A4 /* DoorKey.cpp in Sources */,
+				3DB92643531203A87016D7F3 /* Labyrinth.cpp in Sources */,
+				008739C41F1E4F7002C654D5 /* LabyrinthGameModeBase.cpp in Sources */,
+				B039F466D27DAE291ECEA085 /* PlayerBase.cpp in Sources */,
 				94A1D67A3CE7FF4F281DCEF7 /* VerticalTrap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +72,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	1BEDBFF35A8272555BA6314C /* Embed App Extensions */ = {
+	7849C126F69E4DC486EE4CBD /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -74,36 +84,36 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		F80C1DF0C3AC65C8FFB93CE7 /* PBXContainerItemProxy */ = {
+		7C15B8E8E43E4E75ADD497EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8C80AF0794D3D6A432A8F71F /* Project object */;
+			containerPortal = 25C25C8E65B454F9E7ED5436 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67D94D5CD0CB160509195FBF;
+			remoteGlobalIDString = A01839110D98BB4781238B7E;
 			remoteInfo = "Labyrinth_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		145CAB295A13450BDD4E8766 /* PBXTargetDependency */ = {
+		29F296C52E44E16B1244FF8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67D94D5CD0CB160509195FBF /* Labyrinth_Build */;
-			targetProxy = F80C1DF0C3AC65C8FFB93CE7 /* PBXContainerItemProxy */;
+			target = A01839110D98BB4781238B7E /* Labyrinth_Build */;
+			targetProxy = 7C15B8E8E43E4E75ADD497EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		7C15B8E8E43E4E75ADD497EF = {
+		1A5D3C0B38C0F6B5E8B807CA = {
 			isa = PBXGroup;
 			children = (
-				5FD8FAB094E92F782B4CB215 /* Config */,
-				77E202BC4F8F5A9B8D1F36B1 /* Source */,
+				9D179B59B53D86A568E43C67 /* Config */,
+				D7E848908361EB56A9674B5D /* Source */,
 				F519DBC82B7C343B37F88500 /* Labyrinth.uproject */,
 				9F1A6E3CBDFC1C4D72A426E5 /* README.md */,
-				94E2860A50E4B6B611D809B0 /* Products */,
+				EBEB3E57B34EE417E831978A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5FD8FAB094E92F782B4CB215 = {
+		9D179B59B53D86A568E43C67 = {
 			isa = PBXGroup;
 			children = (
 				6BB943E2C40AE476452D4EE3 /* DefaultEditor.ini */,
@@ -112,41 +122,45 @@
 				CEDBC2E8B849B360A801E011 /* DefaultInput.ini */,
 			);
 			name = "Config";
-			path = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Config";
+			path = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Config";
 			sourceTree = "<absolute>";
 		};
-		77E202BC4F8F5A9B8D1F36B1 = {
+		D7E848908361EB56A9674B5D = {
 			isa = PBXGroup;
 			children = (
-				8AF28A2210F50454A2BFC98F /* Labyrinth */,
+				A0D4B8FB0197E286DD0CEC58 /* Labyrinth */,
 				CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */,
 				10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */,
 			);
 			name = "Source";
-			path = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Source";
+			path = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Source";
 			sourceTree = "<absolute>";
 		};
-		8AF28A2210F50454A2BFC98F = {
+		A0D4B8FB0197E286DD0CEC58 = {
 			isa = PBXGroup;
 			children = (
+				B75FCE1B1FC2ED242A698D89 /* Door.cpp */,
+				67D94D5CD0CB160509195FBF /* Door.h */,
+				64B0A2236F43EA1BDD2689E9 /* DoorKey.cpp */,
+				12F14D29F900208A5B651126 /* DoorKey.h */,
 				A8295DA4A3F551B8CE2A992C /* Labyrinth.Build.cs */,
-				B75FCE1B1FC2ED242A698D89 /* Labyrinth.cpp */,
-				DED6AD9178010E7A43F4AAEA /* Labyrinth.h */,
-				956283624A0BD4450640362E /* LabyrinthGameModeBase.cpp */,
-				12F14D29F900208A5B651126 /* LabyrinthGameModeBase.h */,
-				F2CBEE22EB83EA83D0F46355 /* PlayerBase.cpp */,
+				54917F58CBAE8BF00BF93C48 /* Labyrinth.cpp */,
+				F80C1DF0C3AC65C8FFB93CE7 /* Labyrinth.h */,
+				DED6AD9178010E7A43F4AAEA /* LabyrinthGameModeBase.cpp */,
+				F2CBEE22EB83EA83D0F46355 /* LabyrinthGameModeBase.h */,
+				956283624A0BD4450640362E /* PlayerBase.cpp */,
 				E5B63BB033ECD49829B1BD00 /* PlayerBase.h */,
 				937D627647FE62ED66F20809 /* VerticalTrap.cpp */,
 				6C579D7FE2CF520A67118028 /* VerticalTrap.h */,
 			);
 			name = "Labyrinth";
-			path = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Source/Labyrinth";
+			path = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Source/Labyrinth";
 			sourceTree = "<absolute>";
 		};
-		94E2860A50E4B6B611D809B0 /* Products */ = {
+		EBEB3E57B34EE417E831978A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81B6AE9469B9DF437CDD2EF6 /* Labyrinth */,
+				94E2860A50E4B6B611D809B0 /* Labyrinth */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,10 +168,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		67D94D5CD0CB160509195FBF /* Labyrinth_Build */ = {
+		A01839110D98BB4781238B7E /* Labyrinth_Build */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Labyrinth.uproject\" -buildscw";
-			buildConfigurationList = 919B2D5E9474495B1FC3A7A4 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Labyrinth.uproject\" -buildscw";
+			buildConfigurationList = 1BEDBFF35A8272555BA6314C /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/Shared/Epic Games/UE_4.24/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -171,30 +185,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		3DB92643531203A87016D7F3 /* Labyrinth */ = {
+		5F08F833A336DE6856EF03CD /* Labyrinth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54917F58CBAE8BF00BF93C48 /* Build configuration list for PBXNativeTarget "Labyrinth" */;
+			buildConfigurationList = 8C80AF0794D3D6A432A8F71F /* Build configuration list for PBXNativeTarget "Labyrinth" */;
 			buildPhases = (
-				1BEDBFF35A8272555BA6314C /* Embed App Extensions */, 
-				BDD71A2D8D487AA40C0748CC /* Shell Script */, 
+				7849C126F69E4DC486EE4CBD /* Embed App Extensions */, 
+				A81B60570ED734E9C6B17403 /* Shell Script */, 
 			);
 			dependencies = (
-				145CAB295A13450BDD4E8766 /* PBXTargetDependency */,
+				29F296C52E44E16B1244FF8B /* PBXTargetDependency */,
 			);
 			name = "Labyrinth";
 			passBuildSettingsInEnvironment = 1;
 			productName = "Labyrinth";
-			productReference = "81B6AE9469B9DF437CDD2EF6";
+			productReference = "94E2860A50E4B6B611D809B0";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		64B0A2236F43EA1BDD2689E9 /* Labyrinth_Index */ = {
+		BDD71A2D8D487AA40C0748CC /* Labyrinth_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F08F833A336DE6856EF03CD /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */;
+			buildConfigurationList = 043C671418506E705608EE62 /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */;
 			buildPhases = (
-				A01839110D98BB4781238B7E /* Sources */,
+				9635C76F95DBBC32D43F7407 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -206,38 +220,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8C80AF0794D3D6A432A8F71F /* Project object */ = {
+		25C25C8E65B454F9E7ED5436 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					3DB92643531203A87016D7F3 = {
+					5F08F833A336DE6856EF03CD = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 29F296C52E44E16B1244FF8B /* Build configuration list for PBXProject "Labyrinth" */;
+			buildConfigurationList = 7D8EB938A9E77213A5F2EE1D /* Build configuration list for PBXProject "Labyrinth" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 7C15B8E8E43E4E75ADD497EF;
-			productRefGroup = 94E2860A50E4B6B611D809B0;
+			mainGroup = 1A5D3C0B38C0F6B5E8B807CA;
+			productRefGroup = EBEB3E57B34EE417E831978A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			3DB92643531203A87016D7F3 /* Labyrinth */,
-			67D94D5CD0CB160509195FBF /* Labyrinth_Build */,
-			64B0A2236F43EA1BDD2689E9 /* Labyrinth_Index */,
+			5F08F833A336DE6856EF03CD /* Labyrinth */,
+			A01839110D98BB4781238B7E /* Labyrinth_Build */,
+			BDD71A2D8D487AA40C0748CC /* Labyrinth_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		043C671418506E705608EE62 /* "DebugGame" */ = {
+		F9861F0DFBD4F6AC7736DE69 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -810,7 +824,7 @@
 			};
 			name = "DebugGame";
 		};
-		EBEB3E57B34EE417E831978A /* "DebugGame Editor" */ = {
+		B6EA05F3ADCC1AEFBFA49295 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1383,7 +1397,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		F9861F0DFBD4F6AC7736DE69 /* "Development" */ = {
+		FE5A7C2561FBC0051F61EA5B /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1956,7 +1970,7 @@
 			};
 			name = "Development";
 		};
-		B6EA05F3ADCC1AEFBFA49295 /* "Development Editor" */ = {
+		1046749F38264A7CF3D627D3 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2529,7 +2543,7 @@
 			};
 			name = "Development Editor";
 		};
-		FE5A7C2561FBC0051F61EA5B /* "Shipping" */ = {
+		3BD0B74FB380484CB428B4DD /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3102,7 +3116,7 @@
 			};
 			name = "Shipping";
 		};
-		25C25C8E65B454F9E7ED5436 /* "DebugGame" */ = {
+		8CBD204AE3D204A7E809C77A /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3116,12 +3130,12 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ce74896d-cd2d-4eb8-8672-1dee9071508a";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Labyrinth;
 				"PRODUCT_NAME[sdk=macosx*]" = "Labyrinth-Mac-DebugGame";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-DebugGame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -3131,7 +3145,7 @@
 			};
 			name = "DebugGame";
 		};
-		9635C76F95DBBC32D43F7407 /* "DebugGame Editor" */ = {
+		AFF9A1ECF41795CE90B0CBA3 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3147,7 +3161,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		8CBD204AE3D204A7E809C77A /* "Development" */ = {
+		1CD22D6A650EFADBB38266A6 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3161,12 +3175,12 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ce74896d-cd2d-4eb8-8672-1dee9071508a";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Labyrinth;
 				"PRODUCT_NAME[sdk=macosx*]" = "Labyrinth";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -3176,7 +3190,7 @@
 			};
 			name = "Development";
 		};
-		AFF9A1ECF41795CE90B0CBA3 /* "Development Editor" */ = {
+		D16D052F6B140B6A89C4914C /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3192,7 +3206,7 @@
 			};
 			name = "Development Editor";
 		};
-		1CD22D6A650EFADBB38266A6 /* "Shipping" */ = {
+		5FD8FAB094E92F782B4CB215 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3206,12 +3220,12 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ce74896d-cd2d-4eb8-8672-1dee9071508a";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Labyrinth;
 				"PRODUCT_NAME[sdk=macosx*]" = "Labyrinth-Mac-Shipping";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-Shipping-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -3221,7 +3235,7 @@
 			};
 			name = "Shipping";
 		};
-		7D8EB938A9E77213A5F2EE1D /* "DebugGame" */ = {
+		7A6524FC0A8B41C7D4BE2D70 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3234,7 +3248,7 @@
 			};
 			name = "DebugGame";
 		};
-		7849C126F69E4DC486EE4CBD /* "DebugGame Editor" */ = {
+		0952B048C2553E849BD4461F /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3247,7 +3261,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		7A6524FC0A8B41C7D4BE2D70 /* "Development" */ = {
+		FD8E2A52FFF0F5D54FB24968 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3260,7 +3274,7 @@
 			};
 			name = "Development";
 		};
-		0952B048C2553E849BD4461F /* "Development Editor" */ = {
+		EB5BC6728242423EA35842B9 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3273,7 +3287,7 @@
 			};
 			name = "Development Editor";
 		};
-		FD8E2A52FFF0F5D54FB24968 /* "Shipping" */ = {
+		77E202BC4F8F5A9B8D1F36B1 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3286,7 +3300,7 @@
 			};
 			name = "Shipping";
 		};
-		1A5D3C0B38C0F6B5E8B807CA /* "DebugGame" */ = {
+		7E40C9B2F7A046713CF6CA50 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3300,12 +3314,12 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ce74896d-cd2d-4eb8-8672-1dee9071508a";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Labyrinth;
 				"PRODUCT_NAME[sdk=macosx*]" = "Labyrinth-Mac-DebugGame";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-DebugGame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -3315,7 +3329,7 @@
 			};
 			name = "DebugGame";
 		};
-		A81B60570ED734E9C6B17403 /* "DebugGame Editor" */ = {
+		854E1A07A33DB0DAAD3302FD /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3331,7 +3345,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		7E40C9B2F7A046713CF6CA50 /* "Development" */ = {
+		D819239F1441FF2364BEEAD1 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3345,12 +3359,12 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ce74896d-cd2d-4eb8-8672-1dee9071508a";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Labyrinth;
 				"PRODUCT_NAME[sdk=macosx*]" = "Labyrinth";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -3360,7 +3374,7 @@
 			};
 			name = "Development";
 		};
-		854E1A07A33DB0DAAD3302FD /* "Development Editor" */ = {
+		7C569C2868CC7501F150CDA7 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3376,7 +3390,7 @@
 			};
 			name = "Development Editor";
 		};
-		D819239F1441FF2364BEEAD1 /* "Shipping" */ = {
+		8AF28A2210F50454A2BFC98F /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3390,12 +3404,12 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ce74896d-cd2d-4eb8-8672-1dee9071508a";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.YourCompany.Labyrinth;
 				"PRODUCT_NAME[sdk=macosx*]" = "Labyrinth-Mac-Shipping";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-Shipping-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/Mac/Labyrinth-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/maiquicedeno/PosetoStudioFiles/Projects/Unreal/Labyrinth/Intermediate/IOS/Labyrinth.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -3408,57 +3422,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29F296C52E44E16B1244FF8B /* Build configuration list for PBXProject "Labyrinth" */ = {
+		7D8EB938A9E77213A5F2EE1D /* Build configuration list for PBXProject "Labyrinth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				043C671418506E705608EE62 /* "DebugGame" */,
-				EBEB3E57B34EE417E831978A /* "DebugGame Editor" */,
-				F9861F0DFBD4F6AC7736DE69 /* "Development" */,
-				B6EA05F3ADCC1AEFBFA49295 /* "Development Editor" */,
-				FE5A7C2561FBC0051F61EA5B /* "Shipping" */,
+				F9861F0DFBD4F6AC7736DE69 /* "DebugGame" */,
+				B6EA05F3ADCC1AEFBFA49295 /* "DebugGame Editor" */,
+				FE5A7C2561FBC0051F61EA5B /* "Development" */,
+				1046749F38264A7CF3D627D3 /* "Development Editor" */,
+				3BD0B74FB380484CB428B4DD /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		919B2D5E9474495B1FC3A7A4 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */ = {
+		1BEDBFF35A8272555BA6314C /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D8EB938A9E77213A5F2EE1D /* "DebugGame" */,
-				7849C126F69E4DC486EE4CBD /* "DebugGame Editor" */,
-				7A6524FC0A8B41C7D4BE2D70 /* "Development" */,
-				0952B048C2553E849BD4461F /* "Development Editor" */,
-				FD8E2A52FFF0F5D54FB24968 /* "Shipping" */,
+				7A6524FC0A8B41C7D4BE2D70 /* "DebugGame" */,
+				0952B048C2553E849BD4461F /* "DebugGame Editor" */,
+				FD8E2A52FFF0F5D54FB24968 /* "Development" */,
+				EB5BC6728242423EA35842B9 /* "Development Editor" */,
+				77E202BC4F8F5A9B8D1F36B1 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		54917F58CBAE8BF00BF93C48 /* Build configuration list for PBXNativeTarget "Labyrinth" */ = {
+		8C80AF0794D3D6A432A8F71F /* Build configuration list for PBXNativeTarget "Labyrinth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25C25C8E65B454F9E7ED5436 /* "DebugGame" */,
-				9635C76F95DBBC32D43F7407 /* "DebugGame Editor" */,
-				8CBD204AE3D204A7E809C77A /* "Development" */,
-				AFF9A1ECF41795CE90B0CBA3 /* "Development Editor" */,
-				1CD22D6A650EFADBB38266A6 /* "Shipping" */,
+				8CBD204AE3D204A7E809C77A /* "DebugGame" */,
+				AFF9A1ECF41795CE90B0CBA3 /* "DebugGame Editor" */,
+				1CD22D6A650EFADBB38266A6 /* "Development" */,
+				D16D052F6B140B6A89C4914C /* "Development Editor" */,
+				5FD8FAB094E92F782B4CB215 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		5F08F833A336DE6856EF03CD /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */ = {
+		043C671418506E705608EE62 /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A5D3C0B38C0F6B5E8B807CA /* "DebugGame" */,
-				A81B60570ED734E9C6B17403 /* "DebugGame Editor" */,
-				7E40C9B2F7A046713CF6CA50 /* "Development" */,
-				854E1A07A33DB0DAAD3302FD /* "Development Editor" */,
-				D819239F1441FF2364BEEAD1 /* "Shipping" */,
+				7E40C9B2F7A046713CF6CA50 /* "DebugGame" */,
+				854E1A07A33DB0DAAD3302FD /* "DebugGame Editor" */,
+				D819239F1441FF2364BEEAD1 /* "Development" */,
+				7C569C2868CC7501F150CDA7 /* "Development Editor" */,
+				8AF28A2210F50454A2BFC98F /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 /* Begin PBXShellScriptBuildPhase section */
-		BDD71A2D8D487AA40C0748CC /* Sign Frameworks */ = {
+		A81B60570ED734E9C6B17403 /* Sign Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3474,5 +3488,5 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 	};
-	rootObject = 8C80AF0794D3D6A432A8F71F /* Project object */;
+	rootObject = 25C25C8E65B454F9E7ED5436 /* Project object */;
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DB92643531203A87016D7F3"
+               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DB92643531203A87016D7F3"
+               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DB92643531203A87016D7F3"
+               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -83,7 +83,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DB92643531203A87016D7F3"
+               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
