@@ -10,6 +10,16 @@ UCLASS()
 class LABYRINTH_API ADoorKey : public AActor
 {
 	GENERATED_BODY()
+    
+private:
+    
+    UFUNCTION()
+    void OnOverlap(AActor* me, AActor* other);
+    
+    
+protected:
+    
+    virtual void BeginPlay() override;
 	
 
 };

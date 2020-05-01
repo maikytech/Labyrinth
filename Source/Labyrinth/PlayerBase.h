@@ -16,10 +16,11 @@ protected:
     virtual void BeginPlay() override;
 
 public:
-
-    
     FVector initialPosition;
     FRotator initialRotation;
+    
+    UPROPERTY(EditAnywhere)
+    int keys;
     
     UPROPERTY(EditAnywhere)
     int respawns;
