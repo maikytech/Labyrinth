@@ -1,7 +1,7 @@
 {
-	"BuildId": "10570792",
+	"BuildId": "13144385",
 	"Modules": 
 	{
-		"Labyrinth": "UE4Editor-Labyrinth-9600.dylib"
+		"Labyrinth": "UE4Editor-Labyrinth.dylib"
 	}
 }
