@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
+               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
+               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
+               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -63,14 +63,15 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "&quot;/Users/maiquicedeno/PosetoStudioFiles/Labyrinth/Labyrinth.uproject&quot;"
+            argument = "&quot;/Users/maiquicedeno/PosetoStudioFiles/Learning/Unreal/Labyrinth/Labyrinth.uproject&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-RunConfig=$(Configuration)"
             isEnabled = "YES">
          </CommandLineArgument>
-      </CommandLineArguments>      <AdditionalOptions>
+      </CommandLineArguments>
+      <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -83,7 +84,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F08F833A336DE6856EF03CD"
+               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">

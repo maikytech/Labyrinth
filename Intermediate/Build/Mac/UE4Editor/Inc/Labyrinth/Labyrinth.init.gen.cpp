@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeLabyrinth_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x1F7E6454,
+				0x6B44300A,
 				0x0A7F14E8,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -7,7 +7,7 @@
 void ADoorKey::BeginPlay()
 {
     Super::BeginPlay();
-    
+
     OnActorBeginOverlap.AddDynamic(this, &ADoorKey::OnOverlap);
 }
 

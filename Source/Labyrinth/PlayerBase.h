@@ -16,8 +16,11 @@ protected:
     virtual void BeginPlay() override;
 
 public:
+    
+    float initialLife;
     FVector initialPosition;
     FRotator initialRotation;
+    
     
     UPROPERTY(EditAnywhere)
     int keys;
@@ -25,9 +28,6 @@ public:
     UPROPERTY(EditAnywhere)
     int respawns;
 
-    UPROPERTY(EditAnywhere)
-    float initialLife;
-    
     UPROPERTY(EditAnywhere)
     float life;
     
