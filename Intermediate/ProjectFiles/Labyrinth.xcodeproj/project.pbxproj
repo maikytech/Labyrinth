@@ -14,19 +14,21 @@
 		1A0C466F5D75E4D8AD6765D5 /* Labyrinth.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* Labyrinth.uproject */; };
 		91F6DDE87770C5A225363F8F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* README.md */; };
 		EC5E64005393B30D4A402975 /* Labyrinth.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */; };
-		26844F340952CD2E91DC317D /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C35D4C423ED19A6F5491EB6 /* Door.cpp */; };
-		945C9B1F13B582ABFF3838E6 /* Door.h in Sources */ = {isa = PBXBuildFile; fileRef = 468E53E730BA27EC54BDEDD1 /* Door.h */; };
-		35952A68191E6A439B06E72D /* DoorKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E249BF7DFE19273CFB12E50D /* DoorKey.cpp */; };
-		2B167008EFBFD7C3FA49AC9C /* DoorKey.h in Sources */ = {isa = PBXBuildFile; fileRef = D80984089BC11F852D9FCE46 /* DoorKey.h */; };
-		314F37C9C4D8AEFC49404B7A /* Labyrinth.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 93EB31936B3282B4026D54EE /* Labyrinth.Build.cs */; };
-		EF24B9A30A900ADD65988D5A /* Labyrinth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E362052EC1C5E0442580 /* Labyrinth.cpp */; };
-		6A234A7C8A7E68D23381C426 /* Labyrinth.h in Sources */ = {isa = PBXBuildFile; fileRef = 7533F92C9B782A0615278743 /* Labyrinth.h */; };
-		A7AEE4B44A2ED603BCA65590 /* LabyrinthGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA282F55C78BFA04ED47B62 /* LabyrinthGameModeBase.cpp */; };
-		629D43577112B1E8B3FA7961 /* LabyrinthGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = D09B9A9B36F9967C78330C67 /* LabyrinthGameModeBase.h */; };
-		26F3A67B14EED78B482AA651 /* PlayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F52E797C4E9DD90233700 /* PlayerBase.cpp */; };
-		FBCFE7EEE0FCEE94BD1EA745 /* PlayerBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 8288AE07F05CAADC3B7173D9 /* PlayerBase.h */; };
-		1C27FFA47841A4895B0DBD91 /* VerticalTrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C525D0E470AAFB423D337305 /* VerticalTrap.cpp */; };
-		1F682146497AD911905AC73F /* VerticalTrap.h in Sources */ = {isa = PBXBuildFile; fileRef = D3A9B2D776CA2EF001231EE0 /* VerticalTrap.h */; };
+		FBCFE7EEE0FCEE94BD1EA745 /* Coin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8288AE07F05CAADC3B7173D9 /* Coin.cpp */; };
+		1F682146497AD911905AC73F /* Coin.h in Sources */ = {isa = PBXBuildFile; fileRef = D3A9B2D776CA2EF001231EE0 /* Coin.h */; };
+		EF24B9A30A900ADD65988D5A /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E362052EC1C5E0442580 /* Door.cpp */; };
+		2542D65B009AEFD76FC9E97E /* Door.h in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A91E0CDF44B3FA62504E7 /* Door.h */; };
+		FBAAED3B95B1D523AF1D43D7 /* DoorKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 470F4200170FBD185F41F2E4 /* DoorKey.cpp */; };
+		26F3A67B14EED78B482AA651 /* DoorKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F52E797C4E9DD90233700 /* DoorKey.h */; };
+		2B167008EFBFD7C3FA49AC9C /* Labyrinth.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = D80984089BC11F852D9FCE46 /* Labyrinth.Build.cs */; };
+		945C9B1F13B582ABFF3838E6 /* Labyrinth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 468E53E730BA27EC54BDEDD1 /* Labyrinth.cpp */; };
+		35952A68191E6A439B06E72D /* Labyrinth.h in Sources */ = {isa = PBXBuildFile; fileRef = E249BF7DFE19273CFB12E50D /* Labyrinth.h */; };
+		6A234A7C8A7E68D23381C426 /* LabyrinthGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7533F92C9B782A0615278743 /* LabyrinthGameModeBase.cpp */; };
+		26844F340952CD2E91DC317D /* LabyrinthGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 6C35D4C423ED19A6F5491EB6 /* LabyrinthGameModeBase.h */; };
+		A7AEE4B44A2ED603BCA65590 /* PlayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA282F55C78BFA04ED47B62 /* PlayerBase.cpp */; };
+		1C27FFA47841A4895B0DBD91 /* PlayerBase.h in Sources */ = {isa = PBXBuildFile; fileRef = C525D0E470AAFB423D337305 /* PlayerBase.h */; };
+		629D43577112B1E8B3FA7961 /* VerticalTrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D09B9A9B36F9967C78330C67 /* VerticalTrap.cpp */; };
+		314F37C9C4D8AEFC49404B7A /* VerticalTrap.h in Sources */ = {isa = PBXBuildFile; fileRef = 93EB31936B3282B4026D54EE /* VerticalTrap.h */; };
 		B598FEA846B56A21864682FE /* LabyrinthEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */; };
 /* End PBXBuildFile section */
 
@@ -38,41 +40,44 @@
 		F519DBC82B7C343B37F88500 /* Labyrinth.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.uproject"; path = "../../Labyrinth.uproject"; sourceTree = SOURCE_ROOT; };
 		9F1A6E3CBDFC1C4D72A426E5 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
 		CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Target.cs"; path = "../../Source/Labyrinth.Target.cs"; sourceTree = SOURCE_ROOT; };
-		6C35D4C423ED19A6F5491EB6 /* Door.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Door.cpp"; path = "../../Source/Labyrinth/Door.cpp"; sourceTree = SOURCE_ROOT; };
-		468E53E730BA27EC54BDEDD1 /* Door.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Door.h"; path = "../../Source/Labyrinth/Door.h"; sourceTree = SOURCE_ROOT; };
-		E249BF7DFE19273CFB12E50D /* DoorKey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DoorKey.cpp"; path = "../../Source/Labyrinth/DoorKey.cpp"; sourceTree = SOURCE_ROOT; };
-		D80984089BC11F852D9FCE46 /* DoorKey.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DoorKey.h"; path = "../../Source/Labyrinth/DoorKey.h"; sourceTree = SOURCE_ROOT; };
-		93EB31936B3282B4026D54EE /* Labyrinth.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Build.cs"; path = "../../Source/Labyrinth/Labyrinth.Build.cs"; sourceTree = SOURCE_ROOT; };
-		6E19E362052EC1C5E0442580 /* Labyrinth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Labyrinth.cpp"; path = "../../Source/Labyrinth/Labyrinth.cpp"; sourceTree = SOURCE_ROOT; };
-		7533F92C9B782A0615278743 /* Labyrinth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Labyrinth.h"; path = "../../Source/Labyrinth/Labyrinth.h"; sourceTree = SOURCE_ROOT; };
-		9FA282F55C78BFA04ED47B62 /* LabyrinthGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LabyrinthGameModeBase.cpp"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
-		D09B9A9B36F9967C78330C67 /* LabyrinthGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LabyrinthGameModeBase.h"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.h"; sourceTree = SOURCE_ROOT; };
-		7C7F52E797C4E9DD90233700 /* PlayerBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlayerBase.cpp"; path = "../../Source/Labyrinth/PlayerBase.cpp"; sourceTree = SOURCE_ROOT; };
-		8288AE07F05CAADC3B7173D9 /* PlayerBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlayerBase.h"; path = "../../Source/Labyrinth/PlayerBase.h"; sourceTree = SOURCE_ROOT; };
-		C525D0E470AAFB423D337305 /* VerticalTrap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerticalTrap.cpp"; path = "../../Source/Labyrinth/VerticalTrap.cpp"; sourceTree = SOURCE_ROOT; };
-		D3A9B2D776CA2EF001231EE0 /* VerticalTrap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerticalTrap.h"; path = "../../Source/Labyrinth/VerticalTrap.h"; sourceTree = SOURCE_ROOT; };
+		8288AE07F05CAADC3B7173D9 /* Coin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Coin.cpp"; path = "../../Source/Labyrinth/Coin.cpp"; sourceTree = SOURCE_ROOT; };
+		D3A9B2D776CA2EF001231EE0 /* Coin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Coin.h"; path = "../../Source/Labyrinth/Coin.h"; sourceTree = SOURCE_ROOT; };
+		6E19E362052EC1C5E0442580 /* Door.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Door.cpp"; path = "../../Source/Labyrinth/Door.cpp"; sourceTree = SOURCE_ROOT; };
+		8B1A91E0CDF44B3FA62504E7 /* Door.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Door.h"; path = "../../Source/Labyrinth/Door.h"; sourceTree = SOURCE_ROOT; };
+		470F4200170FBD185F41F2E4 /* DoorKey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DoorKey.cpp"; path = "../../Source/Labyrinth/DoorKey.cpp"; sourceTree = SOURCE_ROOT; };
+		7C7F52E797C4E9DD90233700 /* DoorKey.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DoorKey.h"; path = "../../Source/Labyrinth/DoorKey.h"; sourceTree = SOURCE_ROOT; };
+		D80984089BC11F852D9FCE46 /* Labyrinth.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Labyrinth.Build.cs"; path = "../../Source/Labyrinth/Labyrinth.Build.cs"; sourceTree = SOURCE_ROOT; };
+		468E53E730BA27EC54BDEDD1 /* Labyrinth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Labyrinth.cpp"; path = "../../Source/Labyrinth/Labyrinth.cpp"; sourceTree = SOURCE_ROOT; };
+		E249BF7DFE19273CFB12E50D /* Labyrinth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Labyrinth.h"; path = "../../Source/Labyrinth/Labyrinth.h"; sourceTree = SOURCE_ROOT; };
+		7533F92C9B782A0615278743 /* LabyrinthGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LabyrinthGameModeBase.cpp"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		6C35D4C423ED19A6F5491EB6 /* LabyrinthGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LabyrinthGameModeBase.h"; path = "../../Source/Labyrinth/LabyrinthGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		9FA282F55C78BFA04ED47B62 /* PlayerBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlayerBase.cpp"; path = "../../Source/Labyrinth/PlayerBase.cpp"; sourceTree = SOURCE_ROOT; };
+		C525D0E470AAFB423D337305 /* PlayerBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlayerBase.h"; path = "../../Source/Labyrinth/PlayerBase.h"; sourceTree = SOURCE_ROOT; };
+		D09B9A9B36F9967C78330C67 /* VerticalTrap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerticalTrap.cpp"; path = "../../Source/Labyrinth/VerticalTrap.cpp"; sourceTree = SOURCE_ROOT; };
+		93EB31936B3282B4026D54EE /* VerticalTrap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerticalTrap.h"; path = "../../Source/Labyrinth/VerticalTrap.h"; sourceTree = SOURCE_ROOT; };
 		10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LabyrinthEditor.Target.cs"; path = "../../Source/LabyrinthEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
-		87466E06C6A666FF3DEF6056 /* Labyrinth */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Labyrinth; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFF249872840CCCADB0547B /* Labyrinth */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Labyrinth; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE79AB6CA18F84BA072E8A78 = {
+		084C899A52A670FF92D01C9B = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26844F340952CD2E91DC317D /* Door.cpp in Sources */,
-				35952A68191E6A439B06E72D /* DoorKey.cpp in Sources */,
-				EF24B9A30A900ADD65988D5A /* Labyrinth.cpp in Sources */,
-				A7AEE4B44A2ED603BCA65590 /* LabyrinthGameModeBase.cpp in Sources */,
-				26F3A67B14EED78B482AA651 /* PlayerBase.cpp in Sources */,
-				1C27FFA47841A4895B0DBD91 /* VerticalTrap.cpp in Sources */,
+				FBCFE7EEE0FCEE94BD1EA745 /* Coin.cpp in Sources */,
+				EF24B9A30A900ADD65988D5A /* Door.cpp in Sources */,
+				FBAAED3B95B1D523AF1D43D7 /* DoorKey.cpp in Sources */,
+				945C9B1F13B582ABFF3838E6 /* Labyrinth.cpp in Sources */,
+				6A234A7C8A7E68D23381C426 /* LabyrinthGameModeBase.cpp in Sources */,
+				A7AEE4B44A2ED603BCA65590 /* PlayerBase.cpp in Sources */,
+				629D43577112B1E8B3FA7961 /* VerticalTrap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	5E6BA71851E9AB883BCFE6DA /* Embed App Extensions */ = {
+	183C5A1949C2B9C30624DB1C /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -84,36 +89,36 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		470F4200170FBD185F41F2E4 /* PBXContainerItemProxy */ = {
+		42CE5C08B7439958AFEC5363 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7ECF975167A69EA3FFF27B25 /* Project object */;
+			containerPortal = CE79AB6CA18F84BA072E8A78 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADB342BEF4C6CF6DD7BA98BE;
+			remoteGlobalIDString = 7ECF975167A69EA3FFF27B25;
 			remoteInfo = "Labyrinth_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		FBAAED3B95B1D523AF1D43D7 /* PBXTargetDependency */ = {
+		B24A279668EB87B9B709B44F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ADB342BEF4C6CF6DD7BA98BE /* Labyrinth_Build */;
-			targetProxy = 470F4200170FBD185F41F2E4 /* PBXContainerItemProxy */;
+			target = 7ECF975167A69EA3FFF27B25 /* Labyrinth_Build */;
+			targetProxy = 42CE5C08B7439958AFEC5363 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		C7EE4733FCE7A19279E18AE7 = {
+		500576475FEDE4C8BF9B6483 = {
 			isa = PBXGroup;
 			children = (
-				8BF7C75535DC7ED5C1D770F3 /* Config */,
-				7576586224274581BB2E18E8 /* Source */,
+				466B91901D51925DDEDF41E2 /* Config */,
+				3001AFB4A89F172E171ACB0E /* Source */,
 				F519DBC82B7C343B37F88500 /* Labyrinth.uproject */,
 				9F1A6E3CBDFC1C4D72A426E5 /* README.md */,
-				AC47F0084EAF64DA83FE2FAC /* Products */,
+				3C34F0EA5CD0DF7EBC77AAE3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8BF7C75535DC7ED5C1D770F3 = {
+		466B91901D51925DDEDF41E2 = {
 			isa = PBXGroup;
 			children = (
 				6BB943E2C40AE476452D4EE3 /* DefaultEditor.ini */,
@@ -125,10 +130,10 @@
 			path = "/Users/maiquicedeno/PosetoStudioFiles/Learning/Unreal/Labyrinth/Config";
 			sourceTree = "<absolute>";
 		};
-		7576586224274581BB2E18E8 = {
+		3001AFB4A89F172E171ACB0E = {
 			isa = PBXGroup;
 			children = (
-				1352AB7C250D2ED0DC465E3D /* Labyrinth */,
+				7C474DFEB31858D05E9836B9 /* Labyrinth */,
 				CF746C0FF4BEC24D1E04EB4B /* Labyrinth.Target.cs */,
 				10E4841AB4578BB4EF66F8B7 /* LabyrinthEditor.Target.cs */,
 			);
@@ -136,31 +141,33 @@
 			path = "/Users/maiquicedeno/PosetoStudioFiles/Learning/Unreal/Labyrinth/Source";
 			sourceTree = "<absolute>";
 		};
-		1352AB7C250D2ED0DC465E3D = {
+		7C474DFEB31858D05E9836B9 = {
 			isa = PBXGroup;
 			children = (
-				6C35D4C423ED19A6F5491EB6 /* Door.cpp */,
-				468E53E730BA27EC54BDEDD1 /* Door.h */,
-				E249BF7DFE19273CFB12E50D /* DoorKey.cpp */,
-				D80984089BC11F852D9FCE46 /* DoorKey.h */,
-				93EB31936B3282B4026D54EE /* Labyrinth.Build.cs */,
-				6E19E362052EC1C5E0442580 /* Labyrinth.cpp */,
-				7533F92C9B782A0615278743 /* Labyrinth.h */,
-				9FA282F55C78BFA04ED47B62 /* LabyrinthGameModeBase.cpp */,
-				D09B9A9B36F9967C78330C67 /* LabyrinthGameModeBase.h */,
-				7C7F52E797C4E9DD90233700 /* PlayerBase.cpp */,
-				8288AE07F05CAADC3B7173D9 /* PlayerBase.h */,
-				C525D0E470AAFB423D337305 /* VerticalTrap.cpp */,
-				D3A9B2D776CA2EF001231EE0 /* VerticalTrap.h */,
+				8288AE07F05CAADC3B7173D9 /* Coin.cpp */,
+				D3A9B2D776CA2EF001231EE0 /* Coin.h */,
+				6E19E362052EC1C5E0442580 /* Door.cpp */,
+				8B1A91E0CDF44B3FA62504E7 /* Door.h */,
+				470F4200170FBD185F41F2E4 /* DoorKey.cpp */,
+				7C7F52E797C4E9DD90233700 /* DoorKey.h */,
+				D80984089BC11F852D9FCE46 /* Labyrinth.Build.cs */,
+				468E53E730BA27EC54BDEDD1 /* Labyrinth.cpp */,
+				E249BF7DFE19273CFB12E50D /* Labyrinth.h */,
+				7533F92C9B782A0615278743 /* LabyrinthGameModeBase.cpp */,
+				6C35D4C423ED19A6F5491EB6 /* LabyrinthGameModeBase.h */,
+				9FA282F55C78BFA04ED47B62 /* PlayerBase.cpp */,
+				C525D0E470AAFB423D337305 /* PlayerBase.h */,
+				D09B9A9B36F9967C78330C67 /* VerticalTrap.cpp */,
+				93EB31936B3282B4026D54EE /* VerticalTrap.h */,
 			);
 			name = "Labyrinth";
 			path = "/Users/maiquicedeno/PosetoStudioFiles/Learning/Unreal/Labyrinth/Source/Labyrinth";
 			sourceTree = "<absolute>";
 		};
-		AC47F0084EAF64DA83FE2FAC /* Products */ = {
+		3C34F0EA5CD0DF7EBC77AAE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87466E06C6A666FF3DEF6056 /* Labyrinth */,
+				CDFF249872840CCCADB0547B /* Labyrinth */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,10 +175,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		ADB342BEF4C6CF6DD7BA98BE /* Labyrinth_Build */ = {
+		7ECF975167A69EA3FFF27B25 /* Labyrinth_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/maiquicedeno/PosetoStudioFiles/Learning/Unreal/Labyrinth/Labyrinth.uproject\" -buildscw";
-			buildConfigurationList = B24A279668EB87B9B709B44F /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */;
+			buildConfigurationList = 69C6B69321400EC5F7C4C868 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/Shared/Epic Games/UE_4.25/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -185,30 +192,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		2542D65B009AEFD76FC9E97E /* Labyrinth */ = {
+		87466E06C6A666FF3DEF6056 /* Labyrinth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B1A91E0CDF44B3FA62504E7 /* Build configuration list for PBXNativeTarget "Labyrinth" */;
+			buildConfigurationList = ADB342BEF4C6CF6DD7BA98BE /* Build configuration list for PBXNativeTarget "Labyrinth" */;
 			buildPhases = (
-				5E6BA71851E9AB883BCFE6DA /* Embed App Extensions */, 
-				500576475FEDE4C8BF9B6483 /* Shell Script */, 
+				183C5A1949C2B9C30624DB1C /* Embed App Extensions */, 
+				F8C12B6BEF681DD85B933E13 /* Shell Script */, 
 			);
 			dependencies = (
-				FBAAED3B95B1D523AF1D43D7 /* PBXTargetDependency */,
+				B24A279668EB87B9B709B44F /* PBXTargetDependency */,
 			);
 			name = "Labyrinth";
 			passBuildSettingsInEnvironment = 1;
 			productName = "Labyrinth";
-			productReference = "87466E06C6A666FF3DEF6056";
+			productReference = "CDFF249872840CCCADB0547B";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		42CE5C08B7439958AFEC5363 /* Labyrinth_Index */ = {
+		C7EE4733FCE7A19279E18AE7 /* Labyrinth_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDFF249872840CCCADB0547B /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */;
+			buildConfigurationList = AC47F0084EAF64DA83FE2FAC /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */;
 			buildPhases = (
-				CE79AB6CA18F84BA072E8A78 /* Sources */,
+				084C899A52A670FF92D01C9B /* Sources */,
 			);
 			dependencies = (
 			);
@@ -220,38 +227,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7ECF975167A69EA3FFF27B25 /* Project object */ = {
+		CE79AB6CA18F84BA072E8A78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					2542D65B009AEFD76FC9E97E = {
+					87466E06C6A666FF3DEF6056 = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 69C6B69321400EC5F7C4C868 /* Build configuration list for PBXProject "Labyrinth" */;
+			buildConfigurationList = 5E6BA71851E9AB883BCFE6DA /* Build configuration list for PBXProject "Labyrinth" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = C7EE4733FCE7A19279E18AE7;
-			productRefGroup = AC47F0084EAF64DA83FE2FAC;
+			mainGroup = 500576475FEDE4C8BF9B6483;
+			productRefGroup = 3C34F0EA5CD0DF7EBC77AAE3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			2542D65B009AEFD76FC9E97E /* Labyrinth */,
-			ADB342BEF4C6CF6DD7BA98BE /* Labyrinth_Build */,
-			42CE5C08B7439958AFEC5363 /* Labyrinth_Index */,
+			87466E06C6A666FF3DEF6056 /* Labyrinth */,
+			7ECF975167A69EA3FFF27B25 /* Labyrinth_Build */,
+			C7EE4733FCE7A19279E18AE7 /* Labyrinth_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		3C34F0EA5CD0DF7EBC77AAE3 /* "DebugGame" */ = {
+		644A75182B64F06B1855D220 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -533,7 +540,7 @@
 			};
 			name = "DebugGame";
 		};
-		644A75182B64F06B1855D220 /* "DebugGame Editor" */ = {
+		34221A75B65AA3F7A8E39D26 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -815,7 +822,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		34221A75B65AA3F7A8E39D26 /* "Development" */ = {
+		B82F8DA1E9C617FF74FC267C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1097,7 +1104,7 @@
 			};
 			name = "Development";
 		};
-		B82F8DA1E9C617FF74FC267C /* "Development Editor" */ = {
+		2FAC27D45BE29C908441226A /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1379,7 +1386,7 @@
 			};
 			name = "Development Editor";
 		};
-		2FAC27D45BE29C908441226A /* "Shipping" */ = {
+		D2EC4B5AC294A3D873E82B8D /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1661,7 +1668,7 @@
 			};
 			name = "Shipping";
 		};
-		084C899A52A670FF92D01C9B /* "DebugGame" */ = {
+		75C634FABEE6DCE4706CA191 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1690,7 +1697,7 @@
 			};
 			name = "DebugGame";
 		};
-		75C634FABEE6DCE4706CA191 /* "DebugGame Editor" */ = {
+		54C6B8D4154D222E1134AE1D /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -1706,7 +1713,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		54C6B8D4154D222E1134AE1D /* "Development" */ = {
+		A9A38EAA402E166CD028AB4B /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1735,7 +1742,7 @@
 			};
 			name = "Development";
 		};
-		A9A38EAA402E166CD028AB4B /* "Development Editor" */ = {
+		3BC4222FE1498F655B56393F /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -1751,7 +1758,7 @@
 			};
 			name = "Development Editor";
 		};
-		3BC4222FE1498F655B56393F /* "Shipping" */ = {
+		46C083059AF5E6AFA0F21199 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1780,7 +1787,7 @@
 			};
 			name = "Shipping";
 		};
-		183C5A1949C2B9C30624DB1C /* "DebugGame" */ = {
+		7B051029B3433F85FD46B5FF /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1793,7 +1800,7 @@
 			};
 			name = "DebugGame";
 		};
-		7B051029B3433F85FD46B5FF /* "DebugGame Editor" */ = {
+		4E3AB0FF68FEA36F0FE7F590 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -1806,7 +1813,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		4E3AB0FF68FEA36F0FE7F590 /* "Development" */ = {
+		7E7E8B53DD451BDCEC434738 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1819,7 +1826,7 @@
 			};
 			name = "Development";
 		};
-		7E7E8B53DD451BDCEC434738 /* "Development Editor" */ = {
+		A8CD9BDB0C7EA72C848B2330 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -1832,7 +1839,7 @@
 			};
 			name = "Development Editor";
 		};
-		A8CD9BDB0C7EA72C848B2330 /* "Shipping" */ = {
+		C885BDA4A1095F8DC08F0820 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1845,7 +1852,7 @@
 			};
 			name = "Shipping";
 		};
-		F8C12B6BEF681DD85B933E13 /* "DebugGame" */ = {
+		4CA098A2337004A3EE0BF528 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1874,7 +1881,7 @@
 			};
 			name = "DebugGame";
 		};
-		4CA098A2337004A3EE0BF528 /* "DebugGame Editor" */ = {
+		29CACEA3A3BE576802724E6D /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -1890,7 +1897,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		29CACEA3A3BE576802724E6D /* "Development" */ = {
+		71018548D0F51B2CA452FAFF /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1919,7 +1926,7 @@
 			};
 			name = "Development";
 		};
-		71018548D0F51B2CA452FAFF /* "Development Editor" */ = {
+		1D47810AA7B7B42FDF1B0D0B /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -1935,7 +1942,7 @@
 			};
 			name = "Development Editor";
 		};
-		1D47810AA7B7B42FDF1B0D0B /* "Shipping" */ = {
+		334D6AEFE74BBC341BF3C3E6 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -1967,57 +1974,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69C6B69321400EC5F7C4C868 /* Build configuration list for PBXProject "Labyrinth" */ = {
+		5E6BA71851E9AB883BCFE6DA /* Build configuration list for PBXProject "Labyrinth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C34F0EA5CD0DF7EBC77AAE3 /* "DebugGame" */,
-				644A75182B64F06B1855D220 /* "DebugGame Editor" */,
-				34221A75B65AA3F7A8E39D26 /* "Development" */,
-				B82F8DA1E9C617FF74FC267C /* "Development Editor" */,
-				2FAC27D45BE29C908441226A /* "Shipping" */,
+				644A75182B64F06B1855D220 /* "DebugGame" */,
+				34221A75B65AA3F7A8E39D26 /* "DebugGame Editor" */,
+				B82F8DA1E9C617FF74FC267C /* "Development" */,
+				2FAC27D45BE29C908441226A /* "Development Editor" */,
+				D2EC4B5AC294A3D873E82B8D /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		B24A279668EB87B9B709B44F /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */ = {
+		69C6B69321400EC5F7C4C868 /* Build configuration list for PBXLegacyTarget "Labyrinth_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				183C5A1949C2B9C30624DB1C /* "DebugGame" */,
-				7B051029B3433F85FD46B5FF /* "DebugGame Editor" */,
-				4E3AB0FF68FEA36F0FE7F590 /* "Development" */,
-				7E7E8B53DD451BDCEC434738 /* "Development Editor" */,
-				A8CD9BDB0C7EA72C848B2330 /* "Shipping" */,
+				7B051029B3433F85FD46B5FF /* "DebugGame" */,
+				4E3AB0FF68FEA36F0FE7F590 /* "DebugGame Editor" */,
+				7E7E8B53DD451BDCEC434738 /* "Development" */,
+				A8CD9BDB0C7EA72C848B2330 /* "Development Editor" */,
+				C885BDA4A1095F8DC08F0820 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		8B1A91E0CDF44B3FA62504E7 /* Build configuration list for PBXNativeTarget "Labyrinth" */ = {
+		ADB342BEF4C6CF6DD7BA98BE /* Build configuration list for PBXNativeTarget "Labyrinth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				084C899A52A670FF92D01C9B /* "DebugGame" */,
-				75C634FABEE6DCE4706CA191 /* "DebugGame Editor" */,
-				54C6B8D4154D222E1134AE1D /* "Development" */,
-				A9A38EAA402E166CD028AB4B /* "Development Editor" */,
-				3BC4222FE1498F655B56393F /* "Shipping" */,
+				75C634FABEE6DCE4706CA191 /* "DebugGame" */,
+				54C6B8D4154D222E1134AE1D /* "DebugGame Editor" */,
+				A9A38EAA402E166CD028AB4B /* "Development" */,
+				3BC4222FE1498F655B56393F /* "Development Editor" */,
+				46C083059AF5E6AFA0F21199 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		CDFF249872840CCCADB0547B /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */ = {
+		AC47F0084EAF64DA83FE2FAC /* Build configuration list for PBXNativeTarget "Labyrinth_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8C12B6BEF681DD85B933E13 /* "DebugGame" */,
-				4CA098A2337004A3EE0BF528 /* "DebugGame Editor" */,
-				29CACEA3A3BE576802724E6D /* "Development" */,
-				71018548D0F51B2CA452FAFF /* "Development Editor" */,
-				1D47810AA7B7B42FDF1B0D0B /* "Shipping" */,
+				4CA098A2337004A3EE0BF528 /* "DebugGame" */,
+				29CACEA3A3BE576802724E6D /* "DebugGame Editor" */,
+				71018548D0F51B2CA452FAFF /* "Development" */,
+				1D47810AA7B7B42FDF1B0D0B /* "Development Editor" */,
+				334D6AEFE74BBC341BF3C3E6 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 /* Begin PBXShellScriptBuildPhase section */
-		500576475FEDE4C8BF9B6483 /* Sign Frameworks */ = {
+		F8C12B6BEF681DD85B933E13 /* Sign Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2033,5 +2040,5 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 	};
-	rootObject = 7ECF975167A69EA3FFF27B25 /* Project object */;
+	rootObject = CE79AB6CA18F84BA072E8A78 /* Project object */;
 }

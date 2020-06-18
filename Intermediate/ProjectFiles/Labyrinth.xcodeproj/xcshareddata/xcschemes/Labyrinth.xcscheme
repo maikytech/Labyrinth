@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
+               BlueprintIdentifier = "87466E06C6A666FF3DEF6056"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
+               BlueprintIdentifier = "87466E06C6A666FF3DEF6056"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
+               BlueprintIdentifier = "87466E06C6A666FF3DEF6056"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">
@@ -70,8 +70,7 @@
             argument = "-RunConfig=$(Configuration)"
             isEnabled = "YES">
          </CommandLineArgument>
-      </CommandLineArguments>
-      <AdditionalOptions>
+      </CommandLineArguments>      <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -84,7 +83,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2542D65B009AEFD76FC9E97E"
+               BlueprintIdentifier = "87466E06C6A666FF3DEF6056"
                BuildableName = "Labyrinth.app"
                BlueprintName = "Labyrinth"
                ReferencedContainer = "container:Labyrinth.xcodeproj">

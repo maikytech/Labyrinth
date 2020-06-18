@@ -13,5 +13,19 @@ UCLASS()
 class LABYRINTH_API ALabyrinthGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+    
+public:
+    
+    ALabyrinthGameModeBase();
+    
+public:
+    
+    UPROPERTY(VisibleAnywhere)
+    int collectedCoins;
+    
+    UPROPERTY(EditAnywhere)
+    int coinsToWin;
+    
+    virtual void Tick(float deltaSeconds) override;
 	
 };

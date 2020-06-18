@@ -30,6 +30,9 @@ void AVerticalTrap::OnOverlap(AActor* me, AActor* other)
     if(pb != nullptr)
     {
         pb->life -= damage;
+        
+        UE_LOG(LogTemp, Warning, TEXT("Player Damage"));
+        
     }
 }
 
