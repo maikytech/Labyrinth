@@ -31,6 +31,15 @@ void EmptyLinkFunctionForGeneratedCodeLabyrinthGameModeBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_coinsToWin_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_coinsToWin;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_collectedCoins_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_collectedCoins;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -47,6 +56,24 @@ void EmptyLinkFunctionForGeneratedCodeLabyrinthGameModeBase() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_coinsToWin_MetaData[] = {
+		{ "Category", "LabyrinthGameModeBase" },
+		{ "ModuleRelativePath", "LabyrinthGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_coinsToWin = { "coinsToWin", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALabyrinthGameModeBase, coinsToWin), METADATA_PARAMS(Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_coinsToWin_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_coinsToWin_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_collectedCoins_MetaData[] = {
+		{ "Category", "LabyrinthGameModeBase" },
+		{ "ModuleRelativePath", "LabyrinthGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_collectedCoins = { "collectedCoins", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALabyrinthGameModeBase, collectedCoins), METADATA_PARAMS(Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_collectedCoins_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_collectedCoins_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALabyrinthGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_coinsToWin,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALabyrinthGameModeBase_Statics::NewProp_collectedCoins,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALabyrinthGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALabyrinthGameModeBase>::IsAbstract,
 	};
@@ -56,11 +83,11 @@ void EmptyLinkFunctionForGeneratedCodeLabyrinthGameModeBase() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ALabyrinthGameModeBase_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ALabyrinthGameModeBase_Statics::PropPointers),
 		0,
 		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_ALabyrinthGameModeBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ALabyrinthGameModeBase_Statics::Class_MetaDataParams))
@@ -74,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeLabyrinthGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALabyrinthGameModeBase, 1322030226);
+	IMPLEMENT_CLASS(ALabyrinthGameModeBase, 1022608271);
 	template<> LABYRINTH_API UClass* StaticClass<ALabyrinthGameModeBase>()
 	{
 		return ALabyrinthGameModeBase::StaticClass();

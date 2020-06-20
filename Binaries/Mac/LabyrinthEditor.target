@@ -5,7 +5,7 @@
 	"TargetType": "Editor",
 	"Architecture": "",
 	"Project": "../../Labyrinth.uproject",
-	"Launch": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+	"Launch": "$(EngineDir)/Binaries/Mac/UE4Editor-Cmd",
 	"Version": 
 	{
 		"MajorVersion": 4,
@@ -21,28 +21,8 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
-			"Type": "Executable"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/Info.plist",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-Cmd",
 			"Type": "Executable"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/PkgInfo",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/Resources/UE4Editor.icns",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/Resources/UProject.icns",
-			"Type": "RequiredResource"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Mac/UE4Editor-Paper2D.dylib",
@@ -2031,18 +2011,6 @@
 		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-CoreAudio.dylib",
 			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/Resources/RadioEffectUnit.component/Contents/Info.plist",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/Resources/RadioEffectUnit.component/Contents/MacOS/RadioEffectUnit",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor.app/Contents/Resources/RadioEffectUnit.component/Contents/Resources/English.lproj/Localizable.strings",
-			"Type": "RequiredResource"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-TaskGraph.dylib",

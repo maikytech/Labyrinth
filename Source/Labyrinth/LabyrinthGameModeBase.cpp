@@ -2,6 +2,7 @@
 
 
 #include "LabyrinthGameModeBase.h"
+#include "Engine/World.h"
 
 ALabyrinthGameModeBase::ALabyrinthGameModeBase()
 {
@@ -10,5 +11,8 @@ ALabyrinthGameModeBase::ALabyrinthGameModeBase()
 
 void ALabyrinthGameModeBase::Tick(float deltaSeconds)
 {
-    
+    if(collectedCoins >= coinsToWin)
+    {
+        GetWorld()->ServerTravel("Win");
+    }
 }
