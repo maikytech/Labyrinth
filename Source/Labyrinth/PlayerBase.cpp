@@ -41,6 +41,8 @@ void APlayerBase::SideAxis(float axis)
 
 void APlayerBase::Tick(float DeltaTime)
 {
+      
+    
     if(life <= 0)
     {
         if(respawns > 0)

@@ -10,6 +10,10 @@ UCLASS()
 class LABYRINTH_API AVerticalTrap : public AActor
 {
 	GENERATED_BODY()
+    
+public:
+    
+    AVerticalTrap();
 	
 protected:
     
@@ -29,7 +33,6 @@ public:
     UPROPERTY(EditAnywhere)
     float damage;
     
-    AVerticalTrap();
     
     virtual void Tick(float DeltaTime) override;
    

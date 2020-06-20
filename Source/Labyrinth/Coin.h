@@ -11,6 +11,15 @@ class LABYRINTH_API ACoin : public AActor
 {
 	GENERATED_BODY()
 	
-
+protected:
+    
+    virtual void BeginPlay() override;
+    
+   
+    
+public:
+    
+    UFUNCTION()
+    void OnOverlap(AActor* me, AActor* other);
 
 };

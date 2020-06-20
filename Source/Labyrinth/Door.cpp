@@ -16,12 +16,13 @@ void ADoor::OnOverlap(AActor* me, AActor* other)
 {
     APlayerBase* pb = Cast<APlayerBase>(other);
     
+    
     if(pb != nullptr && pb->keys > 0)
     {
         pb->keys--;
         
         Destroy();
         
-        UE_LOG(LogTemp, Warning, TEXT("Door Colision"));
+      
     }
 }
