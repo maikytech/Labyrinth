@@ -11,6 +11,10 @@ class LABYRINTH_API APlayerBase : public APawn
 {
 	GENERATED_BODY()
     
+public:
+    
+    APlayerBase();
+    
 protected:
     
     virtual void BeginPlay() override;
@@ -20,7 +24,6 @@ public:
     float initialLife;
     FVector initialPosition;
     FRotator initialRotation;
-    
     
     UPROPERTY(EditAnywhere)
     int keys;
@@ -37,7 +40,8 @@ public:
     UPROPERTY(EditAnywhere)
     float speedRotation;
     
-    APlayerBase();
+    UPROPERTY(VisibleAnywhere)
+    class ACheckpoint* currentCheckpoint;
     
     virtual void SetupPlayerInputComponent(class UInputComponent* inputComponent) override;
     virtual void Tick (float DeltaTime) override;

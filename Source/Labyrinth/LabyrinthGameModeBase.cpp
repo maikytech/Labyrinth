@@ -13,6 +13,6 @@ void ALabyrinthGameModeBase::Tick(float deltaSeconds)
 {
     if(collectedCoins >= coinsToWin)
     {
-        GetWorld()->ServerTravel("Win");
+        UE_LOG(LogTemp, Warning, TEXT("WIN CHEST"))
     }
 }
